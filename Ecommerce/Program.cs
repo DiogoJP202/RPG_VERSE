@@ -8,6 +8,7 @@ builder.Services.Configure<MongoSettings>(
 );
 
 builder.Services.AddSingleton<ProdutoService>();
+builder.Services.AddSingleton<UsuarioService>();
 
 builder.Services.AddControllersWithViews();
 

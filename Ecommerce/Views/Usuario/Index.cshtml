@@ -1,0 +1,21 @@
+@model IEnumerable<Ecommerce.Models.Usuario>
+
+<h2>Usuário</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Nome</td>
+                <td>@p.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
