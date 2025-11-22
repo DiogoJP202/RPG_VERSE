@@ -52,3 +52,10 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Pastas gerais
+./Ecommerce/bin/
+./Ecommerce/obj/
+
+# Visual Studio
+.vs/
