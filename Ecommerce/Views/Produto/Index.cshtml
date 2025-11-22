@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Ecommerce.Models.Produto>
+
+<h2>Produtos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Nome</td>
+                <td>@p.Preco</td>
+                <td>@p.Descricao</td>
+            </tr>
+        }
+    </tbody>
+</table>
